@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>
+      Info
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-text-center">
+  <ion-text color="dark">
+    <h5>This app generates a random joke by clicking
+      the Generate button. <hr> 
+      In order to generate a joke, you must <b>log in</b>.
+      If you don't have an account, you can register one in
+      the Register page.
+      <hr>
+      Warning!!! If you click a saved joke, it automatically gets deleted.
+    </h5>
+  </ion-text>
+  <ion-button color="dark" (click)="onClick()">Creator Info</ion-button>
+
+</ion-content>

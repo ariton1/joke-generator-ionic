@@ -1,0 +1,7 @@
+{
+  "name": "joke-generator",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
